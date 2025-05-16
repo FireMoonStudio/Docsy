@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docsy</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="font-controls">
+            <button id="bold" onclick="bold()">B</button>
+            <button id="italic" onclick="italic()"><i>I</i></button>
+            <button id="Underline" onclick="Underline()"><u>U</u></button>
+            <button onclick="sizeS()">A-</button>
+            <span id="fontSizeVar">3</span>
+            <button onclick="sizeB()">A+</button>
+            <button id="textColorButton" onclick="TextColor()">A <input type="color" id="textColor"></button>
+            <div id="align">
+                <button onclick="alignLeft()">⬅</button>
+                <button onclick="alignCenter()">⬍</button>
+                <button onclick="alignRight()">➡</button>
+            </div>
+        </div>
+
+    </header>
+    <div id="WorkSpace" contenteditable="true"></div>
+</body>
+
+</html>
